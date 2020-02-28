@@ -1,7 +1,7 @@
 # Randomizing Data, generating summmary statistics, and histogram
 
 import numpy as np
-import matplotlib.pyplot as plt
+
 #fake data, thats normal (bell)
 
 mu= 80
@@ -13,9 +13,4 @@ print ("Random Normal Array:", x[:30])
 
 print ("Mean:", np.mean(x))
 print ("Stand Dev", np.std(x))
-
-plt.hist(x)
-plt.show()
-
-print ("I am a champion of Science")
 

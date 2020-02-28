@@ -10,3 +10,7 @@ sigma = 4.5
 x = np.random.normal(mu, sigma, 150)
 
 print ("Random Normal Array:", x[:30])
+
+print ("Mean:", np.mean(x))
+print ("Stand Dev", np.std(x))
+

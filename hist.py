@@ -18,3 +18,6 @@ print ("Stand Dev", np.std(x))
 
 plt.hist(x)
 plt.show()
+
+#there's only enough space for one cowboy in this town
+
